@@ -41,6 +41,32 @@ var news = [
 var publications = [
   [
     {
+      year: '2016',
+      title: 'Anonymity, Intimacy and Self-Disclosure in Social Media',
+      author: 'Xiao Ma, Jeff Hancock, Mor Naaman',
+      source: 'CHI 2016',
+      sourceLink: 'https://chi2016.acm.org/',
+      paperLink: 'https://s.tech.cornell.edu/assets/papers/anonymity-intimacy-disclosure.pdf'
+    },
+    {
+      year: '2016',
+      title: 'Changes in Engagement Before and After Posting to Facebook',
+      author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, and Mor Naaman',
+      source: 'CHI 2016',
+      sourceLink: 'https://chi2016.acm.org/',
+      paperLink: 'http://www.nirg.net/papers/contribution2016grinberg.pdf'
+    },
+    {
+      year: '2016',
+      title: 'Immersive Recommendation: News and Event Recommendations Using Personal Digital Traces',
+      author: 'Cheng-Kang Hsieh, Longqi Yang, Honghao Wei, Mor Naaman, Deborah Estrin',
+      source: 'WWW 2016',
+      sourceLink: 'http://www2016.ca/',
+      paperLink: 'http://www.cs.cornell.edu/~ylongqi/publications/HsiehYWNE16.pdf'
+    }
+  ], 
+  [
+    {
       year: '2015',
       title: 'Editorial Algorithms: Using Social Media to Discover and Report Local News',
       author: 'Raz Schwarz, Mor Naaman, Rannie Teodoro',
@@ -153,12 +179,346 @@ var publications = [
       year: '2012',
       title: 'You Should Have Been There, Man: Live Music, DIY Content and Online Communities',
       author: 'Jessa Lingel and Mor Naaman',
-      source: 'New Media & Society',
+      source: 'New Media & Society, 14(2), March 2012.',
       sourceLink: 'http://nms.sagepub.com/',
       paperLink: 'http://sm.rutgers.edu/pubs/lingel-NMS2011.pdf'
     }
   ], 
-];
+  [
+    {
+      year: '2011',
+      title: 'Beyond Trending Topics: Real-World Event Identification on Twitter',
+      author: 'Hila Becker, Mor Naaman and Luis Gravano',
+      source: 'ICWSM 2011',
+      sourceLink: 'http://www.icwsm.org/2011/',
+      paperLink: 'http://sm.rutgers.edu/pubs/becker35-icwsm2011.pdf'
+    },
+    {
+      year: '2011',
+      title: 'Selecting Quality Twitter Content for Events',
+      author: 'Hila Becker, Mor Naaman and Luis Gravano',
+      source: 'ICWSM 2011',
+      sourceLink: 'http://www.icwsm.org/2011/',
+      paperLink: 'http://sm.rutgers.edu/pubs/becker82-icwsm2011.pdf'
+    },
+    {
+      year: '2011',
+      title: 'Hip and Trendy: Characterizing Emerging Trends on Twitter',
+      author: 'Mor Naaman, Hila Becker and Luis Gravano',
+      source: 'JASIST',
+      sourceLink: 'http://www.asis.org/jasist.html',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/NaamanJasistTwitterTrends.pdf'
+    },
+    {
+      year: '2011',
+      title: 'The Impact of Network Structure on Breaking Ties in Online Social Networks: Unfollowing on Twitter',
+      author: 'Funda Kivran-Swaine, Priya Govindan and Mor Naaman',
+      source: 'CHI 2011',
+      sourceLink: 'http://chi2011.org/',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/kivranswaineCHI2011.pdf'
+    },
+    {
+      year: '2011',
+      title: 'Playable Data: Characterizing the Design Space of Game-y Infographics',
+      author: 'Nicholas Diakopoulos, Mor Naaman, and Funda Kivran-Swaine',
+      source: 'CHI 2011',
+      sourceLink: 'http://chi2011.org/',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/diakopoulosCHI2011.pdf'
+    },
+    {
+      year: '2011',
+      title: 'Network Properties and Social Sharing of Emotions in Social Awareness Streams',
+      author: 'Funda Kivran-Swaine and Mor Naaman',
+      source: 'CSCW 2011',
+      sourceLink: 'http://cscw2011.org/',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/kivranswainecscw2011.pdf'
+    },
+    {
+      year: '2011',
+      title: 'Towards Quality Discourse in Online News Comments',
+      author: 'Nicholas Diakopoulos and Mor Naaman',
+      source: 'CSCW 2011',
+      sourceLink: 'http://cscw2011.org/',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/diakopoulosCSCW2011.pdf'
+    }
+  ], 
+  [
+    {
+      year: '2010',
+      title: 'Social multimedia: highlighting opportunities for search and mining of multimedia data in social media applications',
+      author: 'Mor Naaman',
+      source: 'MTAPP',
+      sourceLink: 'http://www.springer.com/computer/information+systems+and+applications/journal/11042',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/NaamanMTAP10socialMultimedia.pdf',
+      extraInfo: '[Published Online First](http://www.springerlink.com/content/v836432078k27014/?p=8cf4735132d64e02a0352d2a4b8c2e65&pi=9)'
+    },
+    {
+      year: '2010',
+      title: 'Diamonds in the Rough: Social Media Visual Analytics for Journalistic Inquiry',
+      author: 'Nicholas Diakopoulos, Mor Naaman and Funda Kivran-Swaine',
+      source: 'VAST 2010',
+      sourceLink: 'http://vis.computer.org/VisWeek2010/vast.html',
+      paperLink: 'http://comminfo.rutgers.edu/~mor/publications/DiakVast10.pdf'
+    },
+    {
+      year: '2010',
+      title: 'Analysis of Participation in an Online Photo-Sharing Community: A Multidimensional Perspective',
+      author: 'Oded Nov, Mor Naaman and Chen Ye',
+      source: 'JASIST',
+      sourceLink: 'http://www.asis.org/jasist.html',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/NovNaamanYeJASIST2010.pdf'
+    },
+    {
+      year: '2010',
+      title: 'Learning Similarity Metrics for Event Identification in Social Media',
+      author: 'Hila Becker, Mor Naaman, and Luis Gravano',
+      source: 'WSDM 2010',
+      sourceLink: 'http://www.wsdm-conference.org/2010/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/becker-wsdm10.pdf'
+    },
+    {
+      year: '2010',
+      title: 'Is it Really About Me? Message Content in Social Awareness Streams',
+      author: 'Mor Naaman, Jeff Boase and Chih-Hui Lai',
+      source: 'CSCW',
+      sourceLink: 'http://www.cscw2010.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/naamanCSCW10.pdf'
+    },
+    {
+      year: '2010',
+      title: 'Requirements for Mobile Photoware',
+      author: 'Morgan Ames, Dean Eckles, Mor Naaman, Mirjana Spasojevic and Nancy Van House',
+      source: 'Journal of Personal and Ubiquitous Computing vol. 14(2), February 2010.',
+      sourceLink: 'http://www.springerlink.com/content/106503/?p=55e89f8ab2c14cba9ec78c759b9e796c&pi=0',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/NovNaamanYeJASIST2010.pdf'
+    }
+  ], [
+    {
+      year: '2009',
+      title: 'Social Inference Risk Modeling in Mobile and Social Applications',
+      author: 'Sara Motahari, Sotirios Ziavras, Mor Naaman, Mohamed Ismail and Quentin Jones',
+      source: 'PASSAT 2009',
+      sourceLink: 'http://cse.stfx.ca/~passat09/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/motahariPASSAT09.pdf'
+    },
+    {
+      year: '2009',
+      title: 'Event Identification in Social Media',
+      author: 'Hila Becker, Mor Naaman and Luis Gravano',
+      source: 'WebDB 2009',
+      sourceLink: 'http://webdb09.cse.buffalo.edu/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/beckerWebDB2009.pdf'
+    },
+    {
+      year: '2009',
+      title: 'Motivational, Structural and Tenure Factors that Impact Online Community Photo Sharing',
+      author: 'Oded Nov, Mor Naaman and Chen Ye',
+      source: 'ICWSM 2009',
+      sourceLink: 'http://www.icwsm.org/2009/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/Nov_Naaman_Ye_ICWSM_2009_final.pdf',
+      award: 'Best Paper Award'
+    },
+    {
+      year: '2009',
+      title: 'Less Talk, More Rock: Automated Organization of Community-Contributed Collections of Concert Videos',
+      author: 'Lyndon Kennedy and Mor Naaman',
+      source: 'WWW 2009',
+      sourceLink: 'http://www.www2009.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/KennedyLessTalkWWW2009.pdf'
+    },
+    {
+      year: '2009',
+      title: 'Methods for extracting place semantics from Flickr tags',
+      author: 'Tye Rattenbury and Mor Naaman',
+      source: 'ACM Trans. Web, vol. 3(1), Article 1 (January 2009).',
+      sourceLink: 'http://tweb.acm.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/RattenburyPlacesSemanticsTweb09.pdf'
+    },
+    {
+      year: '2008',
+      title: 'ZoneTag\'s Collaborative Tag Suggestions: What is This Person Doing in My Phone?',
+      author: 'Mor Naaman and Rahul Nair',
+      source: 'IEEE Multimedia, vol. 15 (3), pp. 34-40, July-Sept. 2008.',
+      sourceLink: 'http://infolab.stanford.edu/~mor/research.html',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/ZoneTagIEEEMM.pdf'
+    },
+    {
+      year: '2008',
+      title: 'Generating Diverse and Representative Image Search Results for Landmarks',
+      author: 'Lyndon Kennedy and Mor Naaman',
+      source: 'WWW 2008',
+      sourceLink: 'http://www.www2008.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/kennedy-www08.pdf'
+    },
+    {
+      year: '2008',
+      title: 'Photos on the Go: A Mobile Application Case Study',
+      author: 'Mor Naaman, Rahul Nair and Vlad Kaplun',
+      source: 'CHI 2008',
+      sourceLink: 'http://chi2008.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/Naaman-chi08-photosmobile.pdf'
+    },
+    {
+      year: '2008',
+      title: '[Note] What Drives Content Tagging: The Case of Photos on Flickr',
+      author: 'Oded Nov, Mor Naaman and Chen Ye',
+      source: 'CHI 2008',
+      sourceLink: 'http://chi2008.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/Nov-CHI08-whatdrivestagging.pdf'
+    },
+    {
+      year: '2007',
+      title: 'How Flickr Helps us Make Sense of the World: Context and Content in Community-Contributed Media Collections.',
+      author: 'Lyndon Kennedy, Mor Naaman, Shane Ahern, Rahul Nair, Tye Rattenbury',
+      source: 'ACM MM 2007',
+      sourceLink: 'http://mmc36.informatik.uni-augsburg.de/acmmm2007/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/kennedyMM07.pdf'
+    },
+    {
+      year: '2007',
+      title: '[Short] Zurfer: Mobile Multimedia Access in Spatial, Social and Topical Context',
+      author: 'Amy Hwang, Shane Ahern, Simon King, Mor Naaman, Rahul Nair and Jeannie Yang',
+      source: 'ACM MM 2007',
+      sourceLink: 'http://mmc36.informatik.uni-augsburg.de/acmmm2007/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/hwang-mm07-zurfer.pdf'
+    },
+    {
+      year: '2007',
+      title: 'Towards Automatic Extraction of Event and Place Semantics from Flickr Tags',
+      author: 'Tye Rattenbury, Nathan Good, Mor Naaman',
+      source: 'SIGIR 2007',
+      sourceLink: 'http://www.sigir2007.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/sigir2007rattenburyTagSemantics.pdf'
+    },
+    {
+      year: '2007',
+      title: 'World Explorer: Visualizing Aggregate Data from Unstructured Text in Geo-Referenced Collections',
+      author: 'Shane Ahern, Mor Naaman, Rahul Nair, Jeannie Yang',
+      source: 'JCDL 2007',
+      sourceLink: 'http://www.jcdl2007.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/JCDL07-ahern-WorldExplorer.pdf',
+      award: 'Vannevar Bush Best Paper Award'
+    },
+    {
+      year: '2007',
+      title: 'Why We Tag: Motivations for Annotation in Mobile and Online Media',
+      author: 'Morgan Ames and Mor Naaman',
+      source: 'CHI 2007',
+      sourceLink: 'http://chi2007.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/chi2007-Ames-whyWeTag.pdf'
+    },
+    {
+      year: '2007',
+      title: 'Over-Exposed? Privacy Patterns and Considerations in Online and Mobile Photo Sharing',
+      author: 'Shane Ahern, Dean Eckles, Nathan Good, Simon King, Mor Naaman, Rahul Nair',
+      source: 'CHI 2007',
+      sourceLink: 'http://chi2007.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/chi241-ahern-mediaprivacy.pdf'
+    },
+    {
+      year: '2006',
+      title: '(Invited column) Eyes on the World',
+      author: 'Mor Naaman',
+      source: 'IEEE Computer Magazine, vol. 39(10), Oct 2006.',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/naamanComp06.pdf'
+    },
+    {
+      year: '2006',
+      title: 'Generating Summaries and Visualization for Large Collections of Geo-Referenced Photographs',
+      author: 'Alexander Jaffe, Mor Naaman, Tamir Tassa, Marc Davis',
+      source: 'MIR 2006',
+      sourceLink: 'http://riemann.ist.psu.edu/mir2006/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/mir609-jaffe.pdf'
+    },
+    {
+      year: '2006',
+      title: 'HT06, Tagging Paper, Taxonomy, Flickr, Academic Article, ToRead',
+      author: 'Cameron Marlow, Mor Naaman, danah boyd, Marc Davis',
+      source: 'HYPERTEXT 2006',
+      sourceLink: 'http://ht06.org/',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/MarlowHT06.pdf'
+    },
+    {
+      year: '2005',
+      title: 'Leveraging Geo-Referenced Digital Photographs',
+      author: 'Mor Naaman',
+      source: 'Ph.D. Thesis',
+      paperLink: 'http://infolab.stanford.edu/~mor/research/chi241-ahern-mediaprivacy.pdf',
+      extraInfo: 'For a shoter read: [Introduction Only](http://infolab.stanford.edu/~mor/research/naamanthesisintro.pdf)'
+    },
+    {
+      year: '2005',
+      title: 'Leveraging Context to Resolve Identity in Photo Albums',
+      author: 'Mor Naaman, Ron B. Yeh, Hector Garcia-Molina, Andreas Paepcke',
+      source: 'JCDL 2005',
+      sourceLink: 'http://www.jcdl2005.org/',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2005-10'
+    },
+    {
+      year: '2005',
+      title: 'Assigning Textual Names to Sets of Geographic Coordinates',
+      author: 'Mor Naaman, Yee Jiun Song, Andreas Paepcke, Hector Garcia-Molina',
+      source: 'Journal of Computers, Environment, and Urban Systems Journal, 30(4):418-435, July 2006.',
+      sourceLink: 'http://www.sciencedirect.com/science/journal/01989715',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2005-18'
+    },
+    {
+      year: '2004',
+      title: 'Context Data in Geo-Referenced Digital Photo Collections',
+      author: 'Mor Naaman, Susumu Harada, QianYing Wang, Hector Garcia-Molina, Andreas Paepcke',
+      source: 'ACM MM 2004',
+      sourceLink: 'http://www.mm2004.org/',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2004-43'
+    },
+    {
+      year: '2004',
+      title: 'Adventures in Space and Time: Browsing Personal Collections of Geo-Referenced Digital Photographs',
+      author: 'Mor Naaman, Susumu Harada, QianYing Wang, Andreas Paepcke',
+      source: 'Stanford Technical Report',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2004-26'
+    },
+    {
+      year: '2004',
+      title: 'Automatic Organization for Digital Photographs with Geographic Coordinates',
+      author: 'Mor Naaman, Yee Jiun Song, Andreas Paepcke, Hector Garcia-Molina',
+      source: 'JCDL 2004',
+      sourceLink: 'http://www.jcdl2004.org/',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2004-27',
+      award: 'Vannevar Bush Best Paper Award'
+    },
+    {
+      year: '2004',
+      title: 'Lost in Memories: Interacting With Large Photo Collections on PDAs',
+      author: 'Susumu Harada, Mor Naaman, Yee Jiun Song, QianYing Wang, Andreas Paepcke',
+      source: 'JCDL 2004',
+      sourceLink: 'http://www.jcdl2004.org/',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2004-31',
+    },
+    {
+      year: '2003',
+      title: 'From Where to What: Metadata Sharing for Digital Photographs with Geographic Coordinates',
+      author: 'Mor Naaman, Andreas Paepcke, Hector Garcia-Molina',
+      source: 'COOPIS 2003',
+      sourceLink: 'http://www.cs.rmit.edu.au/fedconf/coopis/2003/',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2003-62'
+    },
+    {
+      year: '2003',
+      title: 'Evaluation of ESI and Class-Based Delta Encoding',
+      author: 'Mor Naaman, Hector Garcia-Molina, Andreas Paepcke',
+      source: 'IWCW 2003',
+      sourceLink: 'http://2003.iwcw.org/',
+      paperLink: 'http://dbpubs.stanford.edu/pub/2003-61'
+    }
+  ]
+].map(function(n) {
+  return n.map(function(m) {
+    if (m.extraInfo) {
+      m.extraInfo = marked(m.extraInfo);
+    }
+    return m;
+  });
+});
 
 module.exports = {
   bio: bio,

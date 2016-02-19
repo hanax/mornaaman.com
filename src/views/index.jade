@@ -23,7 +23,7 @@ html
     link(rel='shortcut icon' href='assets/favicon.png' type='image/png')
 
     script(src='//code.jquery.com/jquery-2.1.4.min.js')
-    script(src='/main.js')
+    script(src='main.js')
 
 
   body
@@ -60,7 +60,10 @@ html
 
     .card#publications
       each year in publications
-        h2= year[0].year
+        if (year[0].year >= 2010)
+          h2= year[0].year
+        else
+          h2 Earlier
         ul
           each p in year
             li
@@ -73,3 +76,7 @@ html
                   a(href=p.sourceLink): span#p-source= p.source
                 else
                   span#p-source= p.source
+                if p.extraInfo
+                  p!= p.extraInfo
+                if p.award
+                  p#p-award= p.award
