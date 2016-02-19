@@ -111,6 +111,14 @@ var publications = [
     },
     {
       year: '2014',
+      title: ' City, Self, Network: Transnational Migrants and Online Identity Work',
+      author: 'Jessa Lingel, Mor Naaman, danah boyd',
+      source: 'CSCW 2014',
+      sourceLink: 'http://cscw.acm.org/2014/',
+      paperLink: 'https://people.jacobs.cornell.edu/mor/publications/thegoods/Lingel_CSCW2014_migrants.pdf'
+    },
+    {
+      year: '2014',
       title: 'The Motivations and Experiences of the On-demand Mobile Workforce',
       author: 'Rannie Teodoro, Pinar Ozturk, Mor Naaman, Winter Mason, Janne Lindqvist',
       source: 'CSCW 2014',
@@ -369,7 +377,7 @@ var publications = [
     },
     {
       year: '2008',
-      title: '[Note] What Drives Content Tagging: The Case of Photos on Flickr',
+      title: 'What Drives Content Tagging: The Case of Photos on Flickr',
       author: 'Oded Nov, Mor Naaman, Chen Ye',
       source: 'CHI 2008',
       sourceLink: 'http://chi2008.org/',
@@ -385,7 +393,7 @@ var publications = [
     },
     {
       year: '2007',
-      title: '[Short] Zurfer: Mobile Multimedia Access in Spatial, Social and Topical Context',
+      title: 'Zurfer: Mobile Multimedia Access in Spatial, Social and Topical Context',
       author: 'Amy Hwang, Shane Ahern, Simon King, Mor Naaman, Rahul Nair, Jeannie Yang',
       source: 'ACM MM 2007',
       sourceLink: 'http://mmc36.informatik.uni-augsburg.de/acmmm2007/',
