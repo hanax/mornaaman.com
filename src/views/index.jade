@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+
+    title Mor Naaman
+
+    meta(name='description' content='Homepage of Professor Mor Namman')
+    meta(name='keywords' content='tbd')
+
+    meta(prefix="og: http://ogp.me/ns#" property="og:url" content="https://mornaamen.com")
+    meta(prefix="og: http://ogp.me/ns#" property="og:type" content="website")
+    meta(prefix="og: http://ogp.me/ns#" property="og:site_name" content="Mor Naaman")
+    meta(prefix="og: http://ogp.me/ns#" property="og:title" content="Mor Naaman")
+    meta(prefix="og: http://ogp.me/ns#" property="og:description" content="Homepage of Professor Mor Namman")
+    meta(prefix="og: http://ogp.me/ns#" property="og:image" content="https://mornaamen.com/assets/headshot.jpg")
+    meta(prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US")
+
+    link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:300', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400', rel='stylesheet', type='text/css')
+
+    link(rel='shortcut icon' href='assets/favicon.png' type='image/png')
+
+    script(src='//code.jquery.com/jquery-2.1.4.min.js')
+    script(src='/main.js')
+
+
+  body
+    .left
+      img#headshot(src='assets/headshot.jpg')
+      h1 Mor Naaman
+      ul#navi
+        li#navi-home: a(href='#') home
+        li#navi-bio: a(href='#bio') bio
+        li#navi-publications: a(href='#publications') publications
+      #external-links
+        a#btn-stech(href='http://stech.nyc')
+          p social technologies lab
+        a(href='https://twitter.com/informor'): span.external-link.fa.fa-twitter
+        a(href='mailto:mor@jacobs.cornell.edu'): span.external-link.fa.fa-envelope-o
+
+    .card#home
+      #shortBio!= bio.shortBio
+      .line
+      #news
+        #news-title
+          h2 news
+          #news-more 
+            a(href='https://twitter.com/morwork') more...
+        ul
+          each n in news
+            li
+              span.news-date= n.date
+              span.seperation |
+              span!= n.title
+
+    .card#bio
+      #fullBio!= bio.fullBio
+
+    .card#publications
+      each year in publications
+        h2= year[0].year
+        ul
+          each p in year
+            li
+              a#p-icon(href=p.paperLink): span.fa.fa-file-pdf-o
+              #p-info
+                p#p-title= p.title
+                span#p-author= p.author
+                span.seperation |
+                if p.sourceLink
+                  a(href=p.sourceLink): span#p-source= p.source
+                else
+                  span#p-source= p.source
