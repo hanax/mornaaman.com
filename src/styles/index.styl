@@ -33,6 +33,11 @@ ul
   fixed top 45% left 200px
   transform translateY(-50%)
   width 210px
+  @media screen and (max-width: 1000px)
+    position relative
+    left 50%
+    top 30px
+    transform translateX(-50%)
   #headshot
     position relative
     overflow hidden
@@ -118,6 +123,11 @@ ul
   top 0
   width 55%
   min-width 600px
+  @media screen and (max-width: 1000px)
+    top 90vh
+    left 0
+    min-width 100vw
+    padding 0 30px
 
 .line
   height 1px
@@ -128,7 +138,8 @@ ul
   color rgb(30,30,30)
 
 #home
-  padding-right 250px
+  @media screen and (min-width: 1000px)
+    padding-right 250px
   p
     margin-bottom 20px
     text-align justify
@@ -170,14 +181,16 @@ ul
   display none
 
 #bio
-  padding-right 250px
+  @media screen and (min-width: 1000px)
+    padding-right 250px
   p
     margin-bottom 22px
     text-align justify
 
 #publications
-  padding-right 100px
-  padding-bottom 50px
+  @media screen and (min-width: 1000px)
+    padding-right 100px
+    padding-bottom 50px
   h2
     font-size 14px
     margin 35px 0

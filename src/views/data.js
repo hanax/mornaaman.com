@@ -3,7 +3,7 @@ var marked = require('marked');
 var bio = {
   shortBio: marked(
     '<p>'
-    + 'I am an associate professor at [Cornell Tech](http://tech.cornell.edu/) where where I am the founder of the Connective Media hub, and lead the Social Technologies research group. '
+    + 'I am an associate professor at [Cornell Tech](http://tech.cornell.edu/) where I am the founder of the Connective Media hub, and lead the Social Technologies research group. '
     + 'I sometimes consult or even co-found startups. '
     + 'Previously, I was an assistant professor at [Rutgers SC&I](http://comminfo.rutgers.edu/), led a research team at Yahoo! Research Berkeley, and got a [PhD from Stanford](http://infolab.stanford.edu/). '
     + 'Oh, and played professional basketball.'
