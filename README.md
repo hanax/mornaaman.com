@@ -1,2 +1,2 @@
-## Homepage of Professor Mor Namman
+## Mor Naaman - Homepage
 http://mornaaman.com
