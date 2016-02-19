@@ -68,7 +68,7 @@ var publications = [
     {
       year: '2016',
       title: 'Changes in Engagement Before and After Posting to Facebook',
-      author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, and Mor Naaman',
+      author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, Mor Naaman',
       source: 'CHI 2016',
       sourceLink: 'https://chi2016.acm.org/',
       paperLink: 'http://www.nirg.net/papers/contribution2016grinberg.pdf'
@@ -112,7 +112,7 @@ var publications = [
     {
       year: '2014',
       title: 'The Motivations and Experiences of the On-demand Mobile Workforce',
-      author: 'Rannie Teodoro, Pinar Ozturk, Mor Naaman, Winter Mason, and Janne Lindqvist',
+      author: 'Rannie Teodoro, Pinar Ozturk, Mor Naaman, Winter Mason, Janne Lindqvist',
       source: 'CSCW 2014',
       sourceLink: 'http://cscw.acm.org/2014/',
       paperLink: 'https://people.jacobs.cornell.edu/mor/publications/thegoods/Teodoro_CSCW2014_mobile_workforce.pdf'
@@ -122,14 +122,14 @@ var publications = [
     {
       year: '2013',
       title: 'Effects of Gender and Tie Strength on Twitter Interactions',
-      author: 'Funda Kivran-Swaine, Samuel Brody and Mor Naaman',
+      author: 'Funda Kivran-Swaine, Samuel Brody, Mor Naaman',
       source: 'First Monday, 18(9). doi:10.5210/fm.v18i9.4633',
       paperLink: 'https://people.jacobs.cornell.edu/mor/publications/thegoods/KivranSwaine_1stMonday_EffectsGenderTwitterInteractions.pdf'
     },
     {
       year: '2013',
       title: 'Extracting Diurnal Patterns of Real World Activity from Social Media',
-      author: 'Nir Grinberg, Mor Naaman, Blake Shaw, and Gilad Lotan',
+      author: 'Nir Grinberg, Mor Naaman, Blake Shaw, Gilad Lotan',
       source: 'ICWSM 2013',
       sourceLink: 'http://www.icwsm.org/2013/',
       paperLink: 'http://sm.rutgers.edu/pubs/Grinberg-SMPatterns-ICWSM2013.pdf'
@@ -137,7 +137,7 @@ var publications = [
     {
       year: '2013',
       title: 'Fitter with Twitter: Understanding Personal Health and Fitness Activity in Social Media',
-      author: 'Rannie Teodoro and Mor Naaman',
+      author: 'Rannie Teodoro, Mor Naaman',
       source: 'ICWSM 2013',
       sourceLink: 'http://www.icwsm.org/2013/',
       paperLink: 'http://sm.rutgers.edu/pubs/Teodoro-FitterTwitter-ICWSM2013.pdf'
@@ -147,7 +147,7 @@ var publications = [
     {
       year: '2012',
       title: 'Making a Scene: Alignment of Complete Sets of Clips based on Pairwise Audio Match',
-      author: 'Kai Su, Mor Naaman, Avadhut Gurjar, Mohsin Patel, and Dan Ellis',
+      author: 'Kai Su, Mor Naaman, Avadhut Gurjar, Mohsin Patel, Dan Ellis',
       source: 'ICMR 2012',
       sourceLink: 'http://www.icmr2012.org/',
       paperLink: 'http://sm.rutgers.edu/pubs/su-makingscene-icmr2012.pdf'
@@ -155,7 +155,7 @@ var publications = [
     {
       year: '2012',
       title: 'On the Study of Diurnal Urban Routines on Twitter',
-      author: 'Mor Naaman, Amy Zhang, Samuel Brody, and Gilad Lotan',
+      author: 'Mor Naaman, Amy Zhang, Samuel Brody, Gilad Lotan',
       source: 'ICWSM 2012',
       sourceLink: 'http://www.icwsm.org/2012/',
       paperLink: 'http://sm.rutgers.edu/pubs/naaman-twitterpatterns-icwsm2012.pdf'
@@ -163,7 +163,7 @@ var publications = [
     {
       year: '2012',
       title: 'Identifying Content for Planned Events Across Social Media Sites',
-      author: 'Hila Becker, Dan Iter, Mor Naaman and Luis Gravano',
+      author: 'Hila Becker, Dan Iter, Mor Naaman, Luis Gravano',
       source: 'WSDM 2012',
       sourceLink: 'http://wsdm2012.org/',
       paperLink: 'http://sm.rutgers.edu/pubs/becker-events-wsdm2012.pdf'
@@ -171,7 +171,7 @@ var publications = [
     {
       year: '2012',
       title: 'Unfolding the Event Landscape on Twitter: Classification and Exploration of User Categories',
-      author: 'Munmun De Choudhury, Nicholas Diakopoulos, and Mor Naaman',
+      author: 'Munmun De Choudhury, Nicholas Diakopoulos, Mor Naaman',
       source: 'CSCW 2012',
       sourceLink: 'http://www.icwsm.org/2013/',
       paperLink: 'http://sm.rutgers.edu/pubs/dechoudhury-userclassification-cscw2012.pdf'
@@ -179,7 +179,7 @@ var publications = [
     {
       year: '2012',
       title: 'Practices of information and secrecy in a punk rock subculture',
-      author: 'Jessa Lingel, Aaron Trammell, Joe Sanchez, and Mor Naaman',
+      author: 'Jessa Lingel, Aaron Trammell, Joe Sanchez, Mor Naaman',
       source: 'CSCW 2012',
       sourceLink: 'http://cscw2010.org/',
       paperLink: 'http://sm.rutgers.edu/pubs/lingel-secercy-socialmedia-cscw2012.pdf'
@@ -187,7 +187,7 @@ var publications = [
     {
       year: '2012',
       title: 'You Should Have Been There, Man: Live Music, DIY Content and Online Communities',
-      author: 'Jessa Lingel and Mor Naaman',
+      author: 'Jessa Lingel, Mor Naaman',
       source: 'New Media & Society, 14(2), March 2012.',
       sourceLink: 'http://nms.sagepub.com/',
       paperLink: 'http://sm.rutgers.edu/pubs/lingel-NMS2011.pdf'
@@ -197,7 +197,7 @@ var publications = [
     {
       year: '2011',
       title: 'Beyond Trending Topics: Real-World Event Identification on Twitter',
-      author: 'Hila Becker, Mor Naaman and Luis Gravano',
+      author: 'Hila Becker, Mor Naaman, Luis Gravano',
       source: 'ICWSM 2011',
       sourceLink: 'http://www.icwsm.org/2011/',
       paperLink: 'http://sm.rutgers.edu/pubs/becker35-icwsm2011.pdf'
@@ -205,7 +205,7 @@ var publications = [
     {
       year: '2011',
       title: 'Selecting Quality Twitter Content for Events',
-      author: 'Hila Becker, Mor Naaman and Luis Gravano',
+      author: 'Hila Becker, Mor Naaman, Luis Gravano',
       source: 'ICWSM 2011',
       sourceLink: 'http://www.icwsm.org/2011/',
       paperLink: 'http://sm.rutgers.edu/pubs/becker82-icwsm2011.pdf'
@@ -213,7 +213,7 @@ var publications = [
     {
       year: '2011',
       title: 'Hip and Trendy: Characterizing Emerging Trends on Twitter',
-      author: 'Mor Naaman, Hila Becker and Luis Gravano',
+      author: 'Mor Naaman, Hila Becker, Luis Gravano',
       source: 'JASIST',
       sourceLink: 'http://www.asis.org/jasist.html',
       paperLink: 'http://comminfo.rutgers.edu/~mor/publications/NaamanJasistTwitterTrends.pdf'
@@ -221,7 +221,7 @@ var publications = [
     {
       year: '2011',
       title: 'The Impact of Network Structure on Breaking Ties in Online Social Networks: Unfollowing on Twitter',
-      author: 'Funda Kivran-Swaine, Priya Govindan and Mor Naaman',
+      author: 'Funda Kivran-Swaine, Priya Govindan, Mor Naaman',
       source: 'CHI 2011',
       sourceLink: 'http://chi2011.org/',
       paperLink: 'http://comminfo.rutgers.edu/~mor/publications/kivranswaineCHI2011.pdf'
@@ -229,7 +229,7 @@ var publications = [
     {
       year: '2011',
       title: 'Playable Data: Characterizing the Design Space of Game-y Infographics',
-      author: 'Nicholas Diakopoulos, Mor Naaman, and Funda Kivran-Swaine',
+      author: 'Nicholas Diakopoulos, Mor Naaman, Funda Kivran-Swaine',
       source: 'CHI 2011',
       sourceLink: 'http://chi2011.org/',
       paperLink: 'http://comminfo.rutgers.edu/~mor/publications/diakopoulosCHI2011.pdf'
@@ -237,7 +237,7 @@ var publications = [
     {
       year: '2011',
       title: 'Network Properties and Social Sharing of Emotions in Social Awareness Streams',
-      author: 'Funda Kivran-Swaine and Mor Naaman',
+      author: 'Funda Kivran-Swaine, Mor Naaman',
       source: 'CSCW 2011',
       sourceLink: 'http://cscw2011.org/',
       paperLink: 'http://comminfo.rutgers.edu/~mor/publications/kivranswainecscw2011.pdf'
@@ -245,7 +245,7 @@ var publications = [
     {
       year: '2011',
       title: 'Towards Quality Discourse in Online News Comments',
-      author: 'Nicholas Diakopoulos and Mor Naaman',
+      author: 'Nicholas Diakopoulos, Mor Naaman',
       source: 'CSCW 2011',
       sourceLink: 'http://cscw2011.org/',
       paperLink: 'http://comminfo.rutgers.edu/~mor/publications/diakopoulosCSCW2011.pdf'
@@ -264,7 +264,7 @@ var publications = [
     {
       year: '2010',
       title: 'Diamonds in the Rough: Social Media Visual Analytics for Journalistic Inquiry',
-      author: 'Nicholas Diakopoulos, Mor Naaman and Funda Kivran-Swaine',
+      author: 'Nicholas Diakopoulos, Mor Naaman, Funda Kivran-Swaine',
       source: 'VAST 2010',
       sourceLink: 'http://vis.computer.org/VisWeek2010/vast.html',
       paperLink: 'http://comminfo.rutgers.edu/~mor/publications/DiakVast10.pdf'
@@ -272,7 +272,7 @@ var publications = [
     {
       year: '2010',
       title: 'Analysis of Participation in an Online Photo-Sharing Community: A Multidimensional Perspective',
-      author: 'Oded Nov, Mor Naaman and Chen Ye',
+      author: 'Oded Nov, Mor Naaman, Chen Ye',
       source: 'JASIST',
       sourceLink: 'http://www.asis.org/jasist.html',
       paperLink: 'http://infolab.stanford.edu/~mor/research/NovNaamanYeJASIST2010.pdf'
@@ -280,7 +280,7 @@ var publications = [
     {
       year: '2010',
       title: 'Learning Similarity Metrics for Event Identification in Social Media',
-      author: 'Hila Becker, Mor Naaman, and Luis Gravano',
+      author: 'Hila Becker, Mor Naaman, Luis Gravano',
       source: 'WSDM 2010',
       sourceLink: 'http://www.wsdm-conference.org/2010/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/becker-wsdm10.pdf'
@@ -288,7 +288,7 @@ var publications = [
     {
       year: '2010',
       title: 'Is it Really About Me? Message Content in Social Awareness Streams',
-      author: 'Mor Naaman, Jeff Boase and Chih-Hui Lai',
+      author: 'Mor Naaman, Jeff Boase, Chih-Hui Lai',
       source: 'CSCW',
       sourceLink: 'http://www.cscw2010.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/naamanCSCW10.pdf'
@@ -296,7 +296,7 @@ var publications = [
     {
       year: '2010',
       title: 'Requirements for Mobile Photoware',
-      author: 'Morgan Ames, Dean Eckles, Mor Naaman, Mirjana Spasojevic and Nancy Van House',
+      author: 'Morgan Ames, Dean Eckles, Mor Naaman, Mirjana Spasojevic, Nancy Van House',
       source: 'Journal of Personal and Ubiquitous Computing vol. 14(2), February 2010.',
       sourceLink: 'http://www.springerlink.com/content/106503/?p=55e89f8ab2c14cba9ec78c759b9e796c&pi=0',
       paperLink: 'http://infolab.stanford.edu/~mor/research/NovNaamanYeJASIST2010.pdf'
@@ -305,7 +305,7 @@ var publications = [
     {
       year: '2009',
       title: 'Social Inference Risk Modeling in Mobile and Social Applications',
-      author: 'Sara Motahari, Sotirios Ziavras, Mor Naaman, Mohamed Ismail and Quentin Jones',
+      author: 'Sara Motahari, Sotirios Ziavras, Mor Naaman, Mohamed Ismail, Quentin Jones',
       source: 'PASSAT 2009',
       sourceLink: 'http://cse.stfx.ca/~passat09/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/motahariPASSAT09.pdf'
@@ -313,7 +313,7 @@ var publications = [
     {
       year: '2009',
       title: 'Event Identification in Social Media',
-      author: 'Hila Becker, Mor Naaman and Luis Gravano',
+      author: 'Hila Becker, Mor Naaman, Luis Gravano',
       source: 'WebDB 2009',
       sourceLink: 'http://webdb09.cse.buffalo.edu/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/beckerWebDB2009.pdf'
@@ -321,7 +321,7 @@ var publications = [
     {
       year: '2009',
       title: 'Motivational, Structural and Tenure Factors that Impact Online Community Photo Sharing',
-      author: 'Oded Nov, Mor Naaman and Chen Ye',
+      author: 'Oded Nov, Mor Naaman, Chen Ye',
       source: 'ICWSM 2009',
       sourceLink: 'http://www.icwsm.org/2009/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/Nov_Naaman_Ye_ICWSM_2009_final.pdf',
@@ -330,7 +330,7 @@ var publications = [
     {
       year: '2009',
       title: 'Less Talk, More Rock: Automated Organization of Community-Contributed Collections of Concert Videos',
-      author: 'Lyndon Kennedy and Mor Naaman',
+      author: 'Lyndon Kennedy, Mor Naaman',
       source: 'WWW 2009',
       sourceLink: 'http://www.www2009.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/KennedyLessTalkWWW2009.pdf'
@@ -338,7 +338,7 @@ var publications = [
     {
       year: '2009',
       title: 'Methods for extracting place semantics from Flickr tags',
-      author: 'Tye Rattenbury and Mor Naaman',
+      author: 'Tye Rattenbury, Mor Naaman',
       source: 'ACM Trans. Web, vol. 3(1), Article 1 (January 2009).',
       sourceLink: 'http://tweb.acm.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/RattenburyPlacesSemanticsTweb09.pdf'
@@ -346,7 +346,7 @@ var publications = [
     {
       year: '2008',
       title: 'ZoneTag\'s Collaborative Tag Suggestions: What is This Person Doing in My Phone?',
-      author: 'Mor Naaman and Rahul Nair',
+      author: 'Mor Naaman, Rahul Nair',
       source: 'IEEE Multimedia, vol. 15 (3), pp. 34-40, July-Sept. 2008.',
       sourceLink: 'http://infolab.stanford.edu/~mor/research.html',
       paperLink: 'http://infolab.stanford.edu/~mor/research/ZoneTagIEEEMM.pdf'
@@ -354,7 +354,7 @@ var publications = [
     {
       year: '2008',
       title: 'Generating Diverse and Representative Image Search Results for Landmarks',
-      author: 'Lyndon Kennedy and Mor Naaman',
+      author: 'Lyndon Kennedy, Mor Naaman',
       source: 'WWW 2008',
       sourceLink: 'http://www.www2008.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/kennedy-www08.pdf'
@@ -362,7 +362,7 @@ var publications = [
     {
       year: '2008',
       title: 'Photos on the Go: A Mobile Application Case Study',
-      author: 'Mor Naaman, Rahul Nair and Vlad Kaplun',
+      author: 'Mor Naaman, Rahul Nair, Vlad Kaplun',
       source: 'CHI 2008',
       sourceLink: 'http://chi2008.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/Naaman-chi08-photosmobile.pdf'
@@ -370,7 +370,7 @@ var publications = [
     {
       year: '2008',
       title: '[Note] What Drives Content Tagging: The Case of Photos on Flickr',
-      author: 'Oded Nov, Mor Naaman and Chen Ye',
+      author: 'Oded Nov, Mor Naaman, Chen Ye',
       source: 'CHI 2008',
       sourceLink: 'http://chi2008.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/Nov-CHI08-whatdrivestagging.pdf'
@@ -386,7 +386,7 @@ var publications = [
     {
       year: '2007',
       title: '[Short] Zurfer: Mobile Multimedia Access in Spatial, Social and Topical Context',
-      author: 'Amy Hwang, Shane Ahern, Simon King, Mor Naaman, Rahul Nair and Jeannie Yang',
+      author: 'Amy Hwang, Shane Ahern, Simon King, Mor Naaman, Rahul Nair, Jeannie Yang',
       source: 'ACM MM 2007',
       sourceLink: 'http://mmc36.informatik.uni-augsburg.de/acmmm2007/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/hwang-mm07-zurfer.pdf'
@@ -411,7 +411,7 @@ var publications = [
     {
       year: '2007',
       title: 'Why We Tag: Motivations for Annotation in Mobile and Online Media',
-      author: 'Morgan Ames and Mor Naaman',
+      author: 'Morgan Ames, Mor Naaman',
       source: 'CHI 2007',
       sourceLink: 'http://chi2007.org/',
       paperLink: 'http://infolab.stanford.edu/~mor/research/chi2007-Ames-whyWeTag.pdf'
