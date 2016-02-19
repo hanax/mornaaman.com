@@ -28,7 +28,12 @@ html
 
   body
     .left
-      img#headshot(src='assets/headshot.jpg')
+      #headshot
+        img(src='assets/headshot.jpg')
+        #headshot-overlay
+          a(href='https://www.flickr.com/photos/mmoorr/15592772261/sizes/z/') High-res
+          span 
+          a(href='https://www.flickr.com/photos/mmoorr/15516802398/sizes/z/') headshots
       h1 Mor Naaman
       ul#navi
         li#navi-home: a(href='#') home

@@ -33,8 +33,35 @@ ul
   fixed top 45% left 200px
   transform translateY(-50%)
   width 210px
-  img#headshot
-    size 200px
+  #headshot
+    position relative
+    overflow hidden
+    height 200px
+    img
+      size 200px
+    &:hover
+      #headshot-overlay
+        bottom 0
+    #headshot-overlay
+      position absolute
+      bottom -60px
+      left 0
+      width 200px
+      height 60px
+      text-align center
+      line-height 60px
+      background-color rgba(0,0,0,.7)
+      transition bottom .3s ease
+      font-size 10px
+      letter-spacing .6px
+      text-transform uppercase
+      span
+        margin 0 6px
+      a
+        color #fff
+        transition all .2s
+        &:hover
+          color #FD7024
   h1
     font-family 'Josefin Sans'
     text-transform uppercase
