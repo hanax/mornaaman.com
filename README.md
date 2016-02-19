@@ -2,14 +2,17 @@
 http://mornaaman.com
 
 Clone the project
-git clone git@github.com:<GIT URL>
+git clone git@github.com:\<GIT URL\>
 
-Go into the folder and install the required package
+#### Go into the folder and install the required package
+
 npm install
 
-Compile the source code
+#### Compile the source code
+
 gulp
 
+#### Update files 
 You will get a new folder called dist/ under the same folder with src/
 
 If you want to preview you can run a simple server under dist/, e.g.
