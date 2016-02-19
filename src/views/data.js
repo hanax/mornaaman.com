@@ -3,28 +3,37 @@ var marked = require('marked');
 var bio = {
   shortBio: marked(
     '<p>'
-    + 'I am an associate professor at [Cornell Tech](http://tech.cornell.edu/) where I am the founder of the Connective Media hub, and lead the Social Technologies research group. '
+    + 'I am an associate professor at [Cornell Tech](http://tech.cornell.edu/) where I am the founder of the Connective Media hub, and lead the [Social Technologies](http://stech.nyc) research group. '
     + 'I sometimes consult or even co-found startups. '
     + 'Previously, I was an assistant professor at [Rutgers SC&I](http://comminfo.rutgers.edu/), led a research team at Yahoo! Research Berkeley, and got a [PhD from Stanford](http://infolab.stanford.edu/). '
     + 'Oh, and played professional basketball.'
     + '</p> <p>'
-    + 'My lab will be **taking at least one new PhD student in 2016** with priority for people with strong builder/CS background.'
+    + 'My lab designs, builds, and studies systems that support social interactions in online and physical spaces. Our sponsors include [AOL](http://connectedexperiences.org), Google, Facebook and the National Science Foundation. '
     + '</p>'
   ),
   fullBio: marked(
     '<p>'
     + 'Mor Naaman is an associate professor of [Information Science](http://infosci.cornell.edu/) at the [Jacobs Institute](http://jacobs.cornell.edu/) at [Cornell Tech](http://tech.cornell.edu/), where he is the founder of the Connective Media hub, leads a [research group focused on social technologies](https://s.tech.cornell.edu/), and directs the [AOL Connected Experiences laboratory](https://cx.jacobs.cornell.edu/).'
     + '</p> <p>'
-    + 'His research applies multidisciplinary methods to 1) gain a better understanding of people and their use of social tech; 2) extract insights about people, technology and society from social media and other sources of social data, and 3) develop new social technologies as well as novel tools to make social data more accessible and usable in various settings.'
+    + 'His research group designs, builds, and studies systems that support social interactions in online and physical spaces. '
+    + 'Mor applies multidisciplinary methods to 1) gain a better understanding of people and their use of social tech; 2) extract insights about people, technology and society from social media and other sources of social data, and 3) develop new social technologies as well as novel tools to make social data more accessible and usable in various settings. '
     + '</p> <p>'
     + 'Previously, Mor was on the faculty at the [Rutgers School of Communication and Information](http://comminfo.rutgers.edu/), led a research team at Yahoo! Research Berkeley, received a Ph.D. in Computer Science from the [Stanford University InfoLab](http://infolab.stanford.edu/), and played professional basketball for Hapoel Tel Aviv. He is a recipient of a NSF Early Faculty CAREER Award, research awards and grants from numerous corporations including AOL and Google, and multiple best paper awards.'
     + '</p> <p>'
-    + 'Additional [High-res](https://www.flickr.com/photos/mmoorr/15592772261/sizes/z/) [headshots](https://www.flickr.com/photos/mmoorr/15516802398/sizes/z/) (I\'ll like you better if you pick the polka dot one).'
+    + 'If I am speaking at your event, additional high-res headshots are available: [1](https://www.flickr.com/photos/mmoorr/15592772261/sizes/z/) [2](https://www.flickr.com/photos/mmoorr/15516802398/sizes/z/) (I\'ll like you better if you pick the polka dot one).'
     + '</p>'
   )
 };
 
 var news = [
+  {
+    date: '18 Feb 2016',
+    title: 'I am giving an [invited talk](http://www.wsdm-conference.org/2016/invited-speakers.html#pe-naaman) at WSDM 2016 about my research and startup experiences around events in social media. '
+  },
+  {
+    date: '10 Feb 2016',
+    title: 'Two upcoming CHI 2016 papers from my lab are available [here](http://stech.nyc) -- including one best paper honorable mention. '
+  },
   {
     date: '30 Nov 2015',
     title: 'My lab is hiring new PhD students this year. To work with us, you can apply to the Cornell [IS](http://infosci.cornell.edu/academics/phd) or [CS](https://www.cs.cornell.edu/phd) PhD programs.'
@@ -42,6 +51,14 @@ var publications = [
   [
     {
       year: '2016',
+      title: 'Immersive Recommendation: News and Event Recommendations Using Personal Digital Traces',
+      author: 'Cheng-Kang Hsieh, Longqi Yang, Honghao Wei, Mor Naaman, Deborah Estrin',
+      source: 'WWW 2016',
+      sourceLink: 'http://www2016.ca/',
+      paperLink: 'http://www.cs.cornell.edu/~ylongqi/publications/HsiehYWNE16.pdf'
+    },
+    {
+      year: '2016',
       title: 'Anonymity, Intimacy and Self-Disclosure in Social Media',
       author: 'Xiao Ma, Jeff Hancock, Mor Naaman',
       source: 'CHI 2016',
@@ -55,14 +72,6 @@ var publications = [
       source: 'CHI 2016',
       sourceLink: 'https://chi2016.acm.org/',
       paperLink: 'http://www.nirg.net/papers/contribution2016grinberg.pdf'
-    },
-    {
-      year: '2016',
-      title: 'Immersive Recommendation: News and Event Recommendations Using Personal Digital Traces',
-      author: 'Cheng-Kang Hsieh, Longqi Yang, Honghao Wei, Mor Naaman, Deborah Estrin',
-      source: 'WWW 2016',
-      sourceLink: 'http://www2016.ca/',
-      paperLink: 'http://www.cs.cornell.edu/~ylongqi/publications/HsiehYWNE16.pdf'
     }
   ], 
   [
