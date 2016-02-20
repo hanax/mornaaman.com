@@ -6,15 +6,30 @@ html
 
     title Mor Naaman
 
-    meta(name='description' content='Homepage of Professor Mor Namman')
-    meta(name='keywords' content='tbd')
+    meta(name='description' content='Mor Namman Homepage')
+    meta(name='keywords' content='
+      Mor Naaman,
+      Mor Naaman Home,
+      Mor Naaman Homepage,
+      מור נעמן,
+      Social Media,
+      Social Information,
+      Cornell Tech,
+      Faculty,
+      Associate Professor, 
+      Cornell University,
+      Cornell Tech,
+      Connective Media
+      Conn.X,
+      Connected Experiences
+    ')
 
     meta(prefix="og: http://ogp.me/ns#" property="og:url" content="https://mornaaman.com")
     meta(prefix="og: http://ogp.me/ns#" property="og:type" content="website")
     meta(prefix="og: http://ogp.me/ns#" property="og:site_name" content="Mor Naaman")
     meta(prefix="og: http://ogp.me/ns#" property="og:title" content="Mor Naaman")
-    meta(prefix="og: http://ogp.me/ns#" property="og:description" content="Homepage of Professor Mor Namman")
-    meta(prefix="og: http://ogp.me/ns#" property="og:image" content="https://mornaamen.com/assets/headshot.jpg")
+    meta(prefix="og: http://ogp.me/ns#" property="og:description" content="Mor Naaman Homepage")
+    meta(prefix="og: http://ogp.me/ns#" property="og:image" content="https://mornaaman.com/assets/headshot.jpg")
     meta(prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US")
 
     link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:300', rel='stylesheet', type='text/css')
@@ -84,4 +99,6 @@ html
                 if p.extraInfo
                   p!= p.extraInfo
                 if p.award
-                  p#p-award= p.award
+                  #p-award
+                    span.fa.fa-trophy
+                    span= p.award

@@ -1,6 +1,6 @@
 {
   "name": "static-website-boilerplate",
-  "author": "Scott Cheng",
+  "author": "Hannah Xue",
   "version": "0.0.2",
   "devDependencies": {
     "babel": "^5.8.23",
@@ -25,7 +25,5 @@
   },
   "dependencies": {
     "normalize-css": "^2.3.1"
-  },
-  "repository": "scottcheng/static-website-boilerplate",
-  "license": "MIT"
+  }
 }
