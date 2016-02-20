@@ -71,7 +71,8 @@ var publications = [
       author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, Mor Naaman',
       source: 'CHI 2016',
       sourceLink: 'https://chi2016.acm.org/',
-      paperLink: 'http://www.nirg.net/papers/contribution2016grinberg.pdf'
+      paperLink: 'http://www.nirg.net/papers/contribution2016grinberg.pdf',
+      award: 'Best Paper Honorable Mention'
     }
   ], 
   [
@@ -152,6 +153,15 @@ var publications = [
     }
   ], 
   [
+      {
+      year: '2012',
+      title: 'Finding and Assessing Social Media Information Sources in the Context of Journalism',
+      author: 'Nick Diakopoulos, Mummun  De Choudhury, Mor Naaman',
+      source: 'CHI 2012',
+      sourceLink: 'https://chi2012.acm.org/',
+      paperLink: 'http://www.munmund.net/pubs/chi_2012.pdf',
+      award: 'Best Paper Honorable Mention'
+    },
     {
       year: '2012',
       title: 'Making a Scene: Alignment of Complete Sets of Clips based on Pairwise Audio Match',
