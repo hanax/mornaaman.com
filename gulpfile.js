@@ -31,11 +31,11 @@ gulp.task('jade:publications', function() {
     .pipe(gulp.dest(paths.dist + '/publications/'));
 });
 
-gulp.task('jade:bio', function() {
-  return gulp.src(paths.src + '/views/bio/index.jade')
+gulp.task('jade:about', function() {
+  return gulp.src(paths.src + '/views/about/index.jade')
     .pipe($.plumber())
     .pipe($.jade())
-    .pipe(gulp.dest(paths.dist + '/bio/'));
+    .pipe(gulp.dest(paths.dist + '/about/'));
 });
 
 gulp.task('copy:images', function() {
@@ -58,7 +58,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('build', ['clean'], function(callback) {
-  run(['jade', 'jade:publications', 'jade:bio', 'webpack', 'copy:assets'], callback);
+  run(['jade', 'jade:publications', 'jade:about', 'webpack', 'copy:assets'], callback);
 });
 
 gulp.task('watch', ['build'], function() {
