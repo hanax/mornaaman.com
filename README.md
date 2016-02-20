@@ -19,7 +19,9 @@ sudo npm install -g gulp
 
 #### Compile the source code
 
+```
 gulp
+```
 
 #### Update files 
 You will get a new folder called dist/ under the same folder with src/
