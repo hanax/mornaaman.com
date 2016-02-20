@@ -24,6 +24,20 @@ gulp.task('jade', function() {
     .pipe(gulp.dest(paths.dist));
 });
 
+gulp.task('jade:publications', function() {
+  return gulp.src(paths.src + '/views/publications/index.jade')
+    .pipe($.plumber())
+    .pipe($.jade())
+    .pipe(gulp.dest(paths.dist + '/publications/'));
+});
+
+gulp.task('jade:bio', function() {
+  return gulp.src(paths.src + '/views/bio/index.jade')
+    .pipe($.plumber())
+    .pipe($.jade())
+    .pipe(gulp.dest(paths.dist + '/bio/'));
+});
+
 gulp.task('copy:images', function() {
   return gulp.src(paths.src + '/assets/**/*.{jpg,jpeg,png,gif}', { base: paths.src })
     .pipe($.imagemin())
@@ -44,7 +58,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('build', ['clean'], function(callback) {
-  run(['jade', 'webpack', 'copy:assets'], callback);
+  run(['jade', 'jade:publications', 'jade:bio', 'webpack', 'copy:assets'], callback);
 });
 
 gulp.task('watch', ['build'], function() {
