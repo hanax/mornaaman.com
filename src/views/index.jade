@@ -63,6 +63,10 @@ html
       #fullBio!= bio.fullBio
 
     .card#publications
+      #disclaimer
+        span.fa.fa-exclamation-circle
+        span 
+          a(href='https://scholar.google.com/citations?user=IeqjwlIAAAAJ') This is not a definitive list and likely to include only major publications, for a full list go to Google Scholar.
       each year in publications
         if (year[0].year >= 2010)
           h2= year[0].year
@@ -86,7 +90,3 @@ html
                   #p-award
                     span.fa.fa-trophy
                     span= p.award
-      #disclaimer
-        span.fa.fa-exclamation-circle
-        span 
-          a(href='https://scholar.google.com/citations?user=IeqjwlIAAAAJ') This is not a definitive list and likely to include only major publications, for a full list go to Google Scholar.
