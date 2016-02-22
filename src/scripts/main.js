@@ -50,9 +50,9 @@ $(() => {
     $('#navi-publications a').addClass('navi-active');
   }
 
-  if (location.hash === '#about') {
+  if (location.href.indexOf('#about') != -1) {
     showAbout(false);
-  } else if (location.hash === '#publications') {
+  } else if (location.href.indexOf('#publications') != -1) {
     showPublications(false);
   } else {
     showHome(false);
@@ -73,8 +73,11 @@ $(() => {
     showPublications(true);
   });
 
-  $(window).on("popstate", ()=>{
-    location.reload();
+  $(window).on("hashchange", (e)=>{
+    // if(location.href[location.href.length - 1] != '#') {
+    //   location.href += '/#';
+      location.reload(true);
+    // }
   });
 
 });

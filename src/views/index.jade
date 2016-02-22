@@ -6,8 +6,8 @@ html
 
     title Mor Naaman
 
-    meta(name='description' content='Mor Naaman\'s Homepage | Jacobs Institute | Cornell Tech')
-    meta(name='keywords' content='Mor Naaman, Mor Naaman Home, Mor Naaman Homepage, מור נעמן, Social Media,Jacobs Institute, Cornell Tech, Faculty, Associate Professor, Cornell University, Cornell Tech, Connective Media, Connected Experiences Lab ')
+    meta(name="description" content="Mor Naaman's Homepage | Jacobs Institute | Cornell Tech")
+    meta(name="keywords" content="Mor Naaman, Mor Naaman Home, Mor Naaman Homepage, מור נעמן, Social Media,Jacobs Institute, Cornell Tech, Faculty, Associate Professor, Cornell University, Cornell Tech, Connective Media, Connected Experiences Lab")
     meta(property="og:url" content="https://mornaaman.com")
     meta(property="og:type" content="website")
     meta(property="og:site_name" content="Mor Naaman")
@@ -63,6 +63,10 @@ html
       #fullBio!= bio.fullBio
 
     .card#publications
+      #disclaimer
+        span.fa.fa-exclamation-circle
+        span 
+          a(href='https://scholar.google.com/citations?user=IeqjwlIAAAAJ') This is not a definitive list and likely to include only major publications, for a full list go to Google Scholar.
       each year in publications
         if (year[0].year >= 2010)
           h2= year[0].year
@@ -86,7 +90,3 @@ html
                   #p-award
                     span.fa.fa-trophy
                     span= p.award
-      #disclaimer
-        span.fa.fa-exclamation-circle
-        span 
-          a(href='https://scholar.google.com/citations?user=IeqjwlIAAAAJ') This is not a definitive list and likely to include only major publications, for a full list go to Google Scholar.
