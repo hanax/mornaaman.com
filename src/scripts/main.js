@@ -73,8 +73,8 @@ $(() => {
     showPublications(true);
   });
 
-  $(window).on("popstate", ()=>{
-    location.reload();
-  });
+  // $(window).on("popstate", ()=>{
+  //   location.reload(true);
+  // });
 
 });
