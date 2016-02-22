@@ -50,13 +50,17 @@ $(() => {
     $('#navi-publications a').addClass('navi-active');
   }
 
-  if (location.href.indexOf('#about') != -1) {
-    showAbout(false);
-  } else if (location.href.indexOf('#publications') != -1) {
-    showPublications(false);
-  } else {
-    showHome(false);
-  }
+  var renderFromHash = function(fade) {
+    if (location.href.indexOf('#about') >= 0) {
+      showAbout(fade);
+    } else if (location.href.indexOf('#publications') >= 0) {
+      showPublications(fade);
+    } else {
+      showHome(fade);
+    }
+  };
+
+  renderFromHash(false);
 
   $('#navi-home a').click(() => {
     history.pushState(null, 'Mor Naaman', '#');
@@ -73,11 +77,8 @@ $(() => {
     showPublications(true);
   });
 
-  $(window).on("hashchange", (e)=>{
-    // if(location.href[location.href.length - 1] != '#') {
-    //   location.href += '/#';
-      location.reload(true);
-    // }
-  });
+  window.onpopstate = function(e) {
+    renderFromHash(true);
+  }
 
 });
