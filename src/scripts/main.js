@@ -59,15 +59,22 @@ $(() => {
   }
 
   $('#navi-home a').click(() => {
+    history.pushState(null, 'Mor Naaman', '#');
     showHome(true);
   });
 
   $('#navi-about a').click(() => {
+    history.pushState(null, 'Mor Naaman', '#about');
     showAbout(true);
   });
 
   $('#navi-publications a').click(() => {
+    history.pushState(null, 'Mor Naaman', '#publications');
     showPublications(true);
+  });
+
+  $(window).on("popstate", ()=>{
+    location.reload();
   });
 
 });

@@ -36,9 +36,9 @@ html
           a(href='https://www.flickr.com/photos/mmoorr/15516802398/sizes/z/') headshots
       h1 Mor Naaman
       ul#navi
-        li#navi-home: a(href='#') home
-        li#navi-about: a(href='#about') bio
-        li#navi-publications: a(href='#publications') publications
+        li#navi-home: a home
+        li#navi-about: a bio
+        li#navi-publications: a publications
       #external-links
         a#btn-stech(href='http://stech.nyc')
           p social technologies lab
@@ -64,6 +64,9 @@ html
       #fullBio!= bio.fullBio
 
     .card#publications
+      #disclaimer
+        span.fa.fa-exclamation-circle
+        span This is not a definitive list and likely to include only major publications, for a full list go to Google Scholar.
       each year in publications
         if (year[0].year >= 2010)
           h2= year[0].year
