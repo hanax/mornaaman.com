@@ -99,6 +99,14 @@ var publications = [
       source: 'WSDM 2015',
       sourceLink: 'http://www.wsdm-conference.org/2015/',
       paperLink: 'https://people.jacobs.cornell.edu/mor/publications/thegoods/flatow_wsdm2015_geocoding.pdf'
+    },
+    {
+      year: '2015',
+      title: 'What Is New in Our City? A Framework for Event Extraction Using Social Media Posts',
+      author: 'Chaolun Xia , Jun Hu, Yan Zhu, Mor Naaman',
+      source: 'PAKDD 2015',
+      sourceLink: 'http://www.pakdd2015.jvn.edu.vn/',
+      paperLink: 'https://people.jacobs.cornell.edu/mor/publications/thegoods/xiaCityPAKDD2015.pdf'
     }
   ], 
   [
