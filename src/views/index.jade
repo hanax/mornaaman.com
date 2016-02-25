@@ -56,7 +56,7 @@ html
           each n in news
             li
               span.news-date= n.date
-              span.seperation |
+              span.separator |
               span!= n.title
 
     .card#about
@@ -79,7 +79,7 @@ html
               #p-info
                 p#p-title= p.title
                 span#p-author= p.author
-                span.seperation |
+                span.separator |
                 if p.sourceLink
                   a(href=p.sourceLink): span#p-source= p.source
                 else
